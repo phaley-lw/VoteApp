@@ -6,6 +6,10 @@ variable "DEPLOYMENT_NAME" {
   description = "Name of deployment - used for the cluster name.  Example: rotate"
 }
 
+variable "testing" {
+  description = "This is a testing variable - PTH"
+}
+
 provider "kubernetes" {
   host                   = data.aws_eks_cluster.cluster.endpoint
   token                  = data.aws_eks_cluster_auth.cluster.token

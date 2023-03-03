@@ -53,9 +53,6 @@ jobs:
         run: |
 
              # Required to pass the GITHUB and Lacework (LW) environment variables to use
-             
-             echo "$LW_ACCOUNT"
-             echo "$LW_API_KEY"
 
              env | grep "GITHUB_\|LW_\CI_" > env.list
 

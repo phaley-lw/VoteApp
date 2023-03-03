@@ -63,6 +63,9 @@ jobs:
              # Required if you are not mounting the volume on /app
 
              echo "WORKSPACE=src" >> env.list
+             
+             ls -l
+             cat env.list
 
              # if we want to fail the step for any critical failed findings (violations) in the assessment scan
 

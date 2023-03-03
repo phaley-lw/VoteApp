@@ -44,9 +44,9 @@ jobs:
 
         env:
 
-          LW_ACCOUNT: ${{ variables.LW_ACCOUNT }}
+          LW_ACCOUNT: ${{ vars.LW_ACCOUNT }}
 
-          LW_API_KEY: ${{ variables.LW_API_KEY }}
+          LW_API_KEY: ${{ vars.LW_API_KEY }}
 
           LW_API_SECRET: ${{ secrets.LW_API_SECRET }}
           
